@@ -1,0 +1,122 @@
+
+.sell{
+    font-family: 'cairo';
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    box-shadow: #2229391a 0 22px 52px;
+    margin-bottom: 24px;
+    /* background-image: linear-gradient(rgb(255,255,255),rgb(255,255,255)),linear-gradient(rgb(245,244,248),rgb(226,221,234) 27%,rgb(235,230,243)); */
+    border-radius: 8px;
+    transition: all .1s linear 0s;
+}
+.sell:hover{
+    box-shadow: #22293940 0 4px 40px;
+    cursor: pointer;
+}
+.sell-body{
+    padding: 10px 16px 0;
+}
+.sell-body .sell-body__title .title-name {
+    font-size: 18px;
+    font-weight: bolder;
+    letter-spacing: 0px;
+    color: #222939;
+    margin-top: 0;
+    margin-bottom: -2px;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.sell-body .sell-body__title .title-code {
+    font-size: .875em;
+    color: #28a745;
+}
+
+.sell-body__right .sell-body__right-price p span {
+    font-weight: bolder;
+    color: black;
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.sell-body__right .sell-body__right-price p {
+    margin-bottom: 0;
+    font-size: 12px;
+    font-weight: 500;
+    color: #6f7582;
+}
+
+.sell-body__right .sell-body__right-city p{
+    margin-bottom: 0;
+    font-size: 12px;
+    font-weight: 500;
+    color: #6f7582;
+}
+.sell-body__right .sell-body__right-city p span{
+    color: #333;
+    font-weight: bolder;
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.sell-body__left .sell-body__right-profit p{
+    margin-bottom: 0;
+    font-size: 12px;
+    font-weight: 500;
+    color: #6f7582;
+}
+.sell-body__left .sell-body__right-profit p span{
+    font-weight: bolder;
+    color: black;
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    display: block;
+}
+.sell-body__left .sell-body__right-version p{
+    margin-bottom: 0;
+    font-size: 12px;
+    font-weight: 500;
+    color: #6f7582;
+}
+.sell-body__left .sell-body__right-version p span{
+    font-weight: bolder;
+    color: black;
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    display: block;
+}
+.sell-header .header__img img {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px
+}
+.sell-body__btn button{
+    background-color: #f06548;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    box-shadow: none!important;
+    color: #fff;
+    font-weight: 500;
+    padding: 8px 0;
+    width: 100%;
+    transition: all .2s ease-in-out;
+}
+.sell-body__btn button:hover{
+    background-color: #fff;
+    color: #f06548;
+    border: 1px solid #f06548;
+}
+
+.header__img{
+    position: relative;
+    width: 100%;
+    height: 251px
+}
